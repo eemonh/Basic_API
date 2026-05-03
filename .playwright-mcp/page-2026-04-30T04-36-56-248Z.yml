@@ -1,0 +1,19 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - generic [ref=e6]: Sign in
+    - generic [ref=e7]: Enter your email below to sign in to your account
+  - generic [ref=e8]:
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - generic [ref=e11]: Email
+        - textbox "Email" [ref=e12]:
+          - /placeholder: m@example.com
+      - generic [ref=e13]:
+        - generic [ref=e15]: Password
+        - textbox "Password" [ref=e16]
+    - generic [ref=e17]:
+      - button "Sign in" [ref=e18]
+      - generic [ref=e19]:
+        - text: Don't have an account?
+        - link "Sign up" [ref=e20] [cursor=pointer]:
+          - /url: /register
