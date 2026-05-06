@@ -14,6 +14,7 @@ import {
 import { Pencil, RefreshCcw, Save, Send, User, LogOut, X } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-hot-toast';
+import JsonPlaceholderTable from '@/components/JsonPlaceholderTable';
 
 export default function Dashboard() {
   const { user, logout } = useAuth();
@@ -373,9 +374,11 @@ export default function Dashboard() {
                 </div>
               )}
             </CardContent>
-          </Card>
-        </div>
-      </main>
-    </div>
-  );
+           </Card>
+         </div>
+
+           <JsonPlaceholderTable />
+       </main>
+     </div>
+   );
 }
